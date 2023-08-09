@@ -118,7 +118,7 @@ class Autocompleter {
     _customAutocomplete.enterList(words);
   }
 
-  Future<List<String?>> getSuggestions(String prefix) async {
+  Future<List<String>> getSuggestions(String prefix) async {
     final result = {
       ..._customAutocomplete.suggest(prefix),
       ..._keywordsAutocomplete.suggest(prefix),
