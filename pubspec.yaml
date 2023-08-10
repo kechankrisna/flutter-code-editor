@@ -8,26 +8,30 @@ environment:
   flutter: ">=3.0.0"
 
 dependencies:
-  autotrie: ^2.0.0
-  characters: ^1.2.1
-  charcode: ^1.3.1
-  collection: ^1.16.0
-  equatable: ^2.0.5
-  flutter: { sdk: flutter }
-  flutter_highlight: ^0.7.0
-  highlight: ^0.7.0
-  http: ^0.13.5
-  linked_scroll_controller: ^0.2.0
-  meta: ^1.7.0
-  mocktail: ^0.3.0
-  scrollable_positioned_list: ^0.3.5
-  tuple: ^2.0.1
-  url_launcher: ^6.1.8
+  flutter: 
+    sdk: flutter
+
+  autotrie: 
+    path: ../autotrie
+  characters: ^1.2.1 ## active (dart.dev)
+  charcode: ^1.3.1 ## active (infimum.dk)
+  collection: ^1.16.0 ## active (dart.dev)
+  equatable: ^2.0.5 ## inactive (fluttercommunity.dev)
+  flutter_highlight: ^0.7.0 ## inactive (unknown)
+  highlight: ^0.7.0 ## inactive (unknown)
+  http: ^1.1.0 ## active (dart.dev)
+  linked_scroll_controller: ^0.2.0 ## inactive (google.dev)
+  meta: ^1.7.0 ## active dart.dev
+  mocktail: ^1.0.0 ## active (felangel.dev)
+  scrollable_positioned_list: ^0.3.5 ## active (google.dev)
+  tuple: ^2.0.1 ## active (google.dev)
+  url_launcher: ^6.1.8 ## active (flutter.dev)
 
 dev_dependencies:
-  fake_async: ^1.3.1
-  flutter_test: { sdk: flutter }
-  total_lints: ^2.18.0
+  fake_async: ^1.3.1 ## inactive (dart.dev)
+  flutter_test: 
+    sdk: flutter
+  total_lints: ^3.0.0 ## active (ainkin.com)
 
 flutter:
   uses-material-design: true
